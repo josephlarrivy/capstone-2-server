@@ -11,8 +11,8 @@ const PORT = +process.env.PORT || 3001;
 
 function getDatabaseUri() {
     return (process.env.NODE_ENV === "test")
-        ? "mapApplicationDB-testing"
-        : process.env.DATABASE_URL || "mapApplicationDB";
+        ? "postgresql-fluffy-45094"
+        : process.env.DATABASE_URL || "postgresql-fluffy-45094";
 }
 
 // function getDatabaseUri() {
