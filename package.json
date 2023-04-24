@@ -1,5 +1,13 @@
 {
+  "name": "parkexplorerpro-server",
+  "version": "1.0.0",
+  "description": "My Express app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
+    "express": "^4.17.1",
     "nodemon": "^2.0.22"
   }
 }
