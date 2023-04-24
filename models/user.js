@@ -1,6 +1,6 @@
 
 const bcrypt = require("bcrypt");
-const { BCRYPT_WORK_FACTOR } = require("../app/config");
+const { BCRYPT_WORK_FACTOR } = require("../config");
 const db = require('../db')
 
 const { ExpressError,NotFoundError,UnauthorizedError,BadRequestError,ForbiddenError } = require('../ExpressError')

@@ -1,6 +1,6 @@
 "use strict";
 const { Client } = require("pg");
-const { getDatabaseUri } = require("./app/config");
+const { getDatabaseUri } = require("./config");
 
 let db;
 
