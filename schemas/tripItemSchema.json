@@ -1,0 +1,56 @@
+{
+    "type": "object",
+    "properties": {
+        "type": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 60
+        },
+        "route": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 60
+        },
+        "name": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+        },
+        "description": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10000
+        },
+        "parkcode": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+        },
+        "latitude": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+        },
+        "longitude": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 1000
+        },
+        "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 600
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "type", 
+        "route", 
+        "name", 
+        "description", 
+        "parkcode", 
+        "latitude", 
+        "longitude",
+        "id"
+    ]
+}
