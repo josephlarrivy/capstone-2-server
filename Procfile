@@ -1,1 +1,1 @@
-web: node -v 18.12.1 && nodem server.js
+web: node -v 18.12.1 && node server.js
